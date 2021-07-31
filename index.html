@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF8">
+    <meta name="view" content="width=device-wedth, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nature of live</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Nature of live</h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="51.mp4" muted loop autoplay></video>
+
+        <div class="overlay">
+
+        <div class="text">
+            <h2>Never stop</h2>
+            <h3>Exploring The World</h3>
+            <p>Birds have their own wings
+                They leave when they’re old enough
+                They all are busy with their stuffs
+                But whenever they love, they sing!</p>
+            <a href="Work.html">Explore</a>
+        </div>
+ </div>
+ <center>
+        <ul class="social">
+            <li><a href="https://www.facebook.com/"><img src="b763699fd1fa3bfb374442593ae642e1.png"></a></li>
+            <li><a href="https://twitter.com/home?lang=th"><img src="twitter.png" ></a></li>
+            <li><a href="https://www.instagram.com/"><img src="ig_instagram_insta_photo-512.png"></a></li>
+        </ul>
+</center>
+
+        <!--<ul class="social2">
+            <li><a href="https://twitter.com/home?lang=th"><img src="twitter.png"></a></li>
+        </ul>
+
+        <ul class="social3">
+            <li><a href="https://www.instagram.com/"><img src="ig_instagram_insta_photo-512.png"></a></li>
+        </ul>-->
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="Work.html">Home</a></li>  <br/>
+            <li><a href="#">New</a></li>  <br/>
+            <li><a href="#">Distination</a></li>  <br/>
+            <li><a href="#">Blog</a></li> <br/>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
